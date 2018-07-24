@@ -1,5 +1,11 @@
+@import "styles/Utils.scss";
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+a {
+  color: $link;
 }

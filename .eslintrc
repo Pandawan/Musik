@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [ "./src" ]
+      }
+    }
+  },
+  "rules": {
+      "react/jsx-filename-extension": "false",
+      "react/prefer-stateless-function": "false",
+      "react/jsx-one-expression-per-line": false
+  }
+}
